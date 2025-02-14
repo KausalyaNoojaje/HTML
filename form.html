@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+
+    <label for="name"> Name: </label>
+    <input type="text" id="name" name="name"/><br><br>
+
+    <label for="email"> Email:</label>
+    <input type="text" id="email" name="email" placeholder="abc@gmail.com"/> <br><br>
+
+    <label for="age" > Age:</label>
+    <input type="number" id="age" min="18" max="60" name="age"/> <br><br>
+
+    <label for="file" > Upload a file:</label>
+    <input type="file" id="file" name="Choose a file" accept=".png, .jpg"/><br><br>
+
+    <label for="msg"> Message:</label><br>
+    <textarea id="msg" rows="5" cols="35" name="message"> </textarea>
+    <br/><br/>
+
+    <label for="gender"> Gender:</label>
+    <select name="gender" id="gender">
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+    </select>
+    <br><br>
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="reading" name="Hobbies" value="reading" /><label for="reading">Reading</label><br/>    
+    <input type="checkbox" id="travel" name="Hobbies" value="travelling"/> <label for="travel">Travelling</label><br/>
+    <input type="checkbox" id="game" name="Hobbies" value="gaming"/> <label for="game">Gaming</label><br/><br/>
+
+
+    <label >Favorite Color:</label><br>
+    <input type="radio" name="color" id="red" /><label for="red">Red</label><br/>    
+    <input type="radio" name="color" id="blue"/><label for="blue">Blue</label><br/> 
+    <input type="radio" name="color" id="green"/><label for="green">Green</label><br/> <br>
+
+    <button>Submit</button>
+
+</body>
+</html>

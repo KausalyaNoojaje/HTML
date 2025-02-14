@@ -1,0 +1,17 @@
+h1{
+    color:pink;
+    background-color: yellow;
+}
+p{
+    color:blueviolet;
+}
+button{
+    color:red;
+    background-color: blue;
+}
+.heading{
+    color:green;
+}
+#heading2{
+    color: blue;
+}

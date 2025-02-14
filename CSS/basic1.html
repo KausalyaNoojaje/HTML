@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!---3 types of CSS: Inline, Internal and external -->
+<!---Precedence of 3 types of CSS: Inline > Internal > External-->
+<!--This is called internal CSS-->
+<style>
+    h1{
+        color:red;
+        background-color: green;
+    }
+</style>
+<!--external css linking. rel=relation, href is path of the css file-->
+<link rel="stylesheet" href="basic1.css">
+<body>
+    <!---This is inline CSS-->
+    <h1 style="color: brown;" id="heading1" class="heading"> This is a heading</h1>
+    
+    <p>Hello</p>
+    <button>Hi</button>
+
+    <h1 id="heading2" class="heading">This is second heading</h1>
+    <!---Id selector > class selector > element selector-->
+    <!---.heading is class selector
+        #heading2 is id selector
+        h1 h2 is element selector in a CSS file-->
+    
+</body>
+</html>
